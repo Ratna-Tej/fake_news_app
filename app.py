@@ -38,7 +38,7 @@ st.set_page_config(page_title="Fake News Classification App", page_icon="📰", 
 st.markdown("""
     <style>
     body {
-        background-color: #ffffff; /* Set background to grey */
+        background-color: #ffffff;
     }
     .title {
         font-size: 3em;
@@ -55,34 +55,34 @@ st.markdown("""
         margin-bottom: 30px;
     }
     .stTextArea textarea {
-        background-color: white !important; /* Set text box background to white */
-        color: black !important;
-        border: 2px solid #4CAF50 !important;
-        border-radius: 8px !important;
+        background-color: white; 
+        color: black ;
+        border: 2px solid #4CAF50;
+        border-radius: 8px ;
         padding: 10px !important;
-        cursor: text !important; /* Ensure cursor is visible and text-like */
+        cursor: text !important; 
     }
     .stTextArea textarea:focus {
-        border-color: #45a049 !important; /* Change border color on focus */
-        box-shadow: 0 0 5px rgba(69, 160, 73, 0.5) !important; /* Add focus effect */
-        outline: none !important; /* Remove default outline */
+        border-color: #45a049 ; 
+        box-shadow: 0 0 5px rgba(69, 160, 73, 0.5) ; 
+        outline: none !important; 
     }
     .stButton>button {
-        background-color: green !important;
-        color: white !important;
+        background-color: green ;
+        color: white ;
         border: none;
-        padding: 10px 20px !important;
+        padding: 10px 20px ;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px !important;
-        margin: 4px 2px !important;
-        border-radius: 8px !important;
-        cursor: pointer !important;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+        font-size: 16px ;
+        margin: 4px 2px ;
+        border-radius: 8px ;
+        cursor: pointer ;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
     }
     .stButton>button:hover {
-        background-color: #45a049 !important;
+        background-color: #45a049 ;
     }
     </style>
     """, unsafe_allow_html=True)
